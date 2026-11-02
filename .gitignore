@@ -1,0 +1,29 @@
+# Environment files and secrets
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+
+# Dependencies
+node_modules/
+**/node_modules/
+
+# Build output
+dist/
+**/dist/
+
+# Logs and temporary files
+*.log
+logs/
+.npm-cache/
+.cache/
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Older duplicate backend
+/server/
